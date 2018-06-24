@@ -70,8 +70,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <TargetName>ddraw</TargetName>
-    <IncludePath>$(ProjectDir);D:\GitHub\Detours\include;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\um;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\GitHub\Detours\lib.X86;C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.17134.0\um;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir);D:\GitHub\Detours\include;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\um;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\GitHub\Detours\lib.X86;C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.17134.0;C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.17134.0\um\x86;$(LibraryPath)</LibraryPath>
     <LinkIncremental>false</LinkIncremental>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -79,8 +79,8 @@
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <TargetName>ddraw</TargetName>
-    <IncludePath>$(ProjectDir);D:\GitHub\Detours\include;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\um;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\GitHub\Detours\lib.X86;C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.17134.0\um;$(LibraryPath)</LibraryPath>
+    <IncludePath>$(ProjectDir);D:\GitHub\Detours\include;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0;C:\Program Files %28x86%29\Windows Kits\10\Include\10.0.17134.0\um;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\GitHub\Detours\lib.X86;C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.17134.0;C:\Program Files %28x86%29\Windows Kits\10\Lib\10.0.17134.0\um\x86;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <LinkIncremental>false</LinkIncremental>
